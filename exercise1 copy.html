@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercise.css">    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="fixed-nav">
+            <div class="logo">
+               <a href="#home"><img src="IMAGE/real logo.png" alt="Djowocakes Logo"></a>
+                <h1>Djowocakes</h1>
+            </div>
+            <div class="nav-items">
+               
+                <!-- Navigation -->
+<ul class="nav-links">
+    <li><a href="#">Home</a></li>
+
+    <!-- Dropdown Menu -->
+    <li class="dropdown">
+        <a href="ABISCAKETYPES.HTML">Cake Types  ▽</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Wedding Cakes</a></li>
+            <li><a href="#">Birthday Cakes</a></li>
+            <li><a href="#">Traditional Cakes</a></li>
+            <li><a href="#">Valentines Cakes</a></li>
+            <li><a href="#">Christmas Cakes</a></li>
+        </ul>
+    </li>
+
+    <li><a href="#">CupCakes</a></li>
+    <li><a href="#">Christmas Cakes</a></li>
+    <li><a href="#">Cake Gallery</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#contactmeee">Contact Us</a></li>
+    <div class="cart-container">
+        <div id="cart-icon">
+            🛒 <span id="cart-count">0</span>
+        </div>
+        <div id="cart-dropdown" class="cart-dropdown">
+            <h3>Your Cart</h3>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="clear-cart">🗑️Clear Cart</button>
+        </div>
+    </div>
+    
+        </div>
+        <div class="nav-icons">
+            <input type="text" placeholder="Search for products..." class="search-bar">
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+            <a href="#cart" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+       
+        <button class="nav-toggle">Menu</button>
+    </div>
+ 
+</ul>
+            </div>
+                
+          
+        </nav>
+        <main>
+            <!-- ✅ New Dynamic Slideshow Section (Added Below) -->
+            <section id="slideshow" class="slideshow">
+                <div class="slideshow-content">
+                    <h2 id="slide-title">Delicious Cakes & Cupcakes</h2>
+                    <p id="slide-text">At DjowoCakes, we believe every celebration deserves a special touch, which is why we craft beautifully designed and delicious cakes that bring joy to every occasion. Made with love, passion, and the finest ingredients, our cakes and cupcakes are more than just desserts—they are sweet memories waiting to be shared!💜💜🎂🎂💜💜!</p>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="btn">💳 Order Now</a>
+                </div>
+            
+                <!-- Manual Navigation Buttons -->
+                <button id="prev-slide" class="slide-btn">❮</button>
+                <button id="next-slide" class="slide-btn">❯</button>
+            </section></main>
+        
+        <div id="content1">  
+            <section class="products">
+                <h2 class="softt">Our Delicious Cakes</h2>
+                <div class="product-list">
+                    <div class="product">
+                        <img src="IMAGE/cake-1145609_1920.jpg" alt="Delicious Cake">
+                        <p>Chocolate Bliss</p>
+                        <p class="price">$15.99</p>
+                        <button class="add-to-cart" data-name="Chocolate Bliss" data-price="15.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+               target="_blank" class="order-now">
+                <i class="fab fa-whatsapp"></i> 💳 Order Now
+            </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/cake-1543831_1920.jpg" alt="Delicious Cake">
+                        <p>Strawberry Delight</p>
+                        <p class="price">$18.99</p>
+                        <button class="add-to-cart" data-name="Strawberry Delight" data-price="18.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/cake-2589348_1920.jpg" alt="Delicious Cake">
+                        <p>Vanilla Dream</p>
+                        <p class="price">$14.99</p>
+                        <button class="add-to-cart" data-name="Vanilla Dream" data-price="14.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/cake-345657_1920.jpg" alt="Delicious Cake">
+                        <p>Red Velvet Love</p>
+                        <p class="price">$20.99</p>
+                        <button class="add-to-cart" data-name="Red Velvet Love" data-price="20.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/cake-4433123_1920.jpg" alt="Delicious Cake">
+                        <p>Blueberry Fantasy</p>
+                        <p class="price">$16.49</p>
+                        <button class="add-to-cart" data-name="Blueberry Fantasy" data-price="16.49">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/cake-6292565_1920.jpg" alt="Delicious Cake">
+                        <p>Caramel Drizzle</p>
+                        <p class="price">$17.99</p>
+                        <button class="add-to-cart" data-name="Caramel Drizzle" data-price="17.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/cake-7367272_1920.jpg" alt="Delicious Cake">
+                        <p>Cookies & Cream</p>
+                        <p class="price">$19.99</p>
+                        <button class="add-to-cart" data-name="Cookies & Cream" data-price="19.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                    <div class="product">
+                        <img src="IMAGE/wedding-cake-1027900_1920.jpg" alt="Delicious Cake">
+                        <p>Rainbow Surprise</p>
+                        <p class="price">$22.99</p>
+                        <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                        <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                        target="_blank" class="order-now">
+                         <i class="fab fa-whatsapp"></i> 💳 Order Now
+                     </a>
+                    </div>
+                </div>
+            </section></div>
+        <div id="content2">  <section class="special-products">
+            <h2 class="softt">Our Special Cakes</h2>
+            <div class="special-product-list">
+                <div class="special-product">
+                    <img src="IMAGE/wedding-5729382_1920.jpg" alt="Cake 1">
+                    <h3>Chocolate Delight</h3>
+                    <p class="price">$25.00</p>
+                    <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="order-now">
+                     <i class="fab fa-whatsapp"></i> 💳 Order Now
+                 </a>
+                </div>
+                <div class="special-product">
+                    <img src="IMAGE/wedding-cake-3346747_1920.jpg" alt="Cake 2">
+                    <h3>Strawberry Bliss</h3>
+                    <p class="price">$30.00</p>
+                    <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="order-now">
+                     <i class="fab fa-whatsapp"></i> 💳 Order Now
+                 </a>
+                </div>
+                <div class="special-product">
+                    <img src="IMAGE/peach-cake-8598851_1920.jpg" alt="Cake 3">
+                    <h3>Red Velvet Fantasy</h3>
+                    <p class="price">$28.00</p>
+                    <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="order-now">
+                     <i class="fab fa-whatsapp"></i> 💳 Order Now
+                 </a>
+                </div>
+                <div class="special-product">
+                    <img src="IMAGE/pair-1994901_1920.jpg" alt="Cake 4">
+                    <h3>Vanilla Dream</h3>
+                    <p class="price">$22.00</p>
+                    <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="order-now">
+                     <i class="fab fa-whatsapp"></i> 💳 Order Now
+                 </a>
+                </div>
+                <div class="special-product">
+                    <img src="IMAGE/donut-3554915_1920.jpg" alt="Cake 5">
+                    <h3>Caramel Crunch</h3>
+                    <p class="price">$35.00</p>
+                    <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="order-now">
+                     <i class="fab fa-whatsapp"></i> 💳 Order Now
+                 </a>
+                </div>
+                <div class="special-product">
+                    <img src="IMAGE/muffin-299479_1920.jpg" alt="Cake 6">
+                    <h3>Fruit Medley</h3>
+                    <p class="price">$27.00</p>
+                    <button class="add-to-cart" data-name="Rainbow Surprise" data-price="22.99">🛍️ Add to Cart</button>
+                    <a href="https://wa.me/2348079167199?text=Hello%20DjowoCakes,%20I%20want%20to%20place%20an%20order!" 
+                    target="_blank" class="order-now">
+                     <i class="fab fa-whatsapp"></i> 💳 Order Now
+                 </a>
+                </div>
+            </div>
+        </section></div>
+        <div id="content3">  <section class="thankyou">
+            <p><p align="right" class="training"> Classes / Schedules: <br> Mondays: <br> 6PM <br> Fridays: <br> 6PM</p> </p>
+            <p class="come">Come Bake <br>With Us!!!!</p>
+            <p align="center" class="joinus">Take Up A Class In Cake Making And Become A Professional</p>
+    
+            <p align="center"><button class="register"><a href="cupcake.html" >Register Now</a></button></p>
+            <p class="prof" align="right">Join Us Today....</p>
+           
+            <p align="right"><img src="IMAGE/real logo.png" alt="LOGO" width="70px" class="logo2"></p>
+    
+            
+          </section>
+    
+          <section class="testimonials">
+            <h2>Customer Testimonials</h2>
+            <div class="testimonial-container">
+            <div class="testimonial-slide">
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0017.jpg" alt="Customer 1">
+            <p class="testimonial-text">"I ordered a custom cake for my wedding and it was absolutely stunning! The design, the taste, everything was perfect. Thank you so much!"</p>
+            <p class="customer-info">--Emily R.</p>
+            </div>
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0013.jpg" alt="Customer 2">
+            <p class="testimonial-text">"I've tried many cake shops before, but yours is the best. The cakes are always fresh and moist, and the customer service is top-notch."</p>
+            <p class="customer-info">--David K.</p>
+            </div>
+            <div class="testimonial">
+            <img src="my new images/IMG-20250127-WA0014.jpg" alt="Customer 3">
+            <p class="testimonial-text">"I ordered a birthday cake for my daughter and she loved it! The cake was delicious and the design was exactly what we wanted. Thank you!"</p>
+            <p class="customer-info">--Sarah T.</p>
+            </div>
+            </div>
+            <div class="testimonial-slide">
+            <div class="testimonial">
+            <img src="my new images/IMG-20250127-WA0016.jpg" alt="Customer 4">
+            <p class="testimonial-text">"I'm not a big fan of sweets, but your cakes are amazing. The flavors are unique and the textures are perfect. I'm hooked!"</p>
+            <p class="customer-info">--James B.</p>
+            </div>
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0001.jpg" alt="Customer 5">
+            <p class="testimonial-text">"I ordered a cake for my anniversary and it was perfect. The design was romantic and the taste was incredible. Thank you for making our special day even more special."</p>
+            <p class="customer-info">--Rachel G.</p>
+            </div>
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0002.jpg" alt="Customer 6">
+            <p class="testimonial-text">"I've been looking for a good cake shop for years and I finally found it. Your cakes are always fresh and delicious, and the prices are reasonable."</p>
+            <p class="customer-info">--Michael T.</p>
+            </div>
+            </div>
+            <div class="testimonial-slide">
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0003.jpg" alt="Customer 7">
+            <p class="testimonial-text">"I ordered a custom cake for my graduation party and it was a hit! The design was perfect and the taste was amazing. Thank you so much!"</p>
+            <p class="customer-info">--Jessica W.</p>
+            </div>
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0004.jpg" alt="Customer 8">
+            <p class="testimonial-text">"I'm a big fan of your cakes. They're always moist and flavorful, and the designs are creative and unique. Keep up the good work!"</p>
+            <p class="customer-info">--Chris H.</p>
+            </div>
+            <div class="testimonial">
+            <img src="my new images/IMG-20250209-WA0005.jpg" alt="Customer 9">
+            <p class="testimonial-text">"I ordered a cake for my son's birthday and it was perfect. The design was exactly what we wanted and the taste was incredible. Thank you!"</p>
+            <p class="customer-info">--Lisa N.</p>
+            </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0006.jpg" alt="Customer 10">
+                <p class="testimonial-text">"I've tried many cake shops before, but yours is the best. The cakes are always fresh and delicious, and the customer service is top-notch."</p>
+                <p class="customer-info">--Tom S.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0007.jpg" alt="Customer 11">
+                <p class="testimonial-text">"I ordered a custom cake for my wedding and it was stunning! The design, the taste, everything was perfect. Thank you so much!"</p>
+                <p class="customer-info">--Karen G.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0016.jpg" alt="Customer 12">
+                <p class="testimonial-text">"I'm a big fan of your cakes. They're always moist and flavorful, and the designs are creative and unique. Keep up the good work!"</p>
+                <p class="customer-info">--Brian M.</p>
+                </div>
+                </div>
+                <div class="testimonial-slide">
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0014.jpg" alt="Customer 13">
+                <p class="testimonial-text">"I ordered a cake for my daughter's birthday and it was perfect. The design was exactly what we wanted and the taste was incredible. Thank you!"</p>
+                <p class="customer-info">--Amanda W.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0012.jpg" alt="Customer 14">
+                <p class="testimonial-text">"I've been looking for a good cake shop for years and I finally found it. Your cakes are always fresh and delicious, and the prices are reasonable."</p>
+                <p class="customer-info">--Daniel K.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0011.jpg" alt="Customer 15">
+                <p class="testimonial-text">"I ordered a custom cake for my anniversary and it was perfect. The design was romantic and the taste was incredible. Thank you for making our special day even more special."</p>
+                <p class="customer-info">--Elizabeth T.</p>
+                </div>
+                </div>
+                <div class="testimonial-slide">
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0009.jpg" alt="Customer 16">
+                <p class="testimonial-text">"I'm so impressed with the quality of the cakes and the customer service. I'll definitely be back!"</p>
+                <p class="customer-info">--Kevin W.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0008.jpg" alt="Customer 17">
+                <p class="testimonial-text">"I ordered a cake for my son's birthday and it was a hit! The design was perfect and the taste was amazing. Thank you so much!"</p>
+                <p class="customer-info">--Laura G.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0007.jpg" alt="Customer 18">
+                <p class="testimonial-text">"I've tried many cake shops before, but yours is the best. The cakes are always fresh and delicious, and the customer service is top-notch."</p>
+                <p class="customer-info">--Matthew T.</p>
+                </div>
+                </div>
+                <div class="testimonial-slide">
+                <div class="testimonial">
+                <img src="my new images/IMG-20250127-WA0012.jpg" alt="Customer 19">
+                <p class="testimonial-text">"I ordered a custom cake for my wedding and it was stunning! The design, the taste, everything was perfect. Thank you so much!"</p>
+                <p class="customer-info">--Nicole H.</p>
+                </div>
+                <div class="testimonial">
+                <img src="my new images/IMG-20250209-WA0011.jpg" alt="Customer 20">
+                <p class="testimonial-text">"I'm a big fan of your cakes. They're always moist and flavorful, and the designs are creative and unique. Keep up the good work!"</p>
+                <p class="customer-info">--Olivia K.</p>
+                </div>
+                </div>
+                </div>
+                <div class="testimonial-nav">
+                <button class="prev-btn">&lt;</button>
+                <button class="next-btn">&gt;</button>
+                </div>
+                </section></div>
+        <div id="content4">  <section class="everything">
+            <section class="Writebacktous">
+
+               <h2>Write Back to Us</h2>
+           </section>
+   
+               <section class="love"><h4><p>We will really love to hear from you</p><h4></section>
+           
+              <section id="restwell">
+              
+                 <section class="form">
+   <div class="fill">
+       <form>
+             <fieldset>
+              <legend>Your Personal Info</legend>
+              <p><label for="FirstName">FirstName</label>
+                 <input type="text" name="firstName"
+                 id="FirstName" placeholder="Logan"
+                 autocomplete="on" required>
+               </p>
+               <p>
+                 <label for="LastName">LastName</label>
+                 <input type="text" name="LastName"
+                 id="LastName" placeholder="Jane"
+                 autocomplete="on" required>
+               </p>
+               <p>
+                 <label for="LastName">Email</label>
+                 <input type="text" name="Email"
+                 id="email" placeholder="e.g Love234@gmail.com"
+                 autocomplete="on" required>
+               </p>
+               <p>
+                 <label for="LastName">Address</label>
+                 <input type="text" name="Address"
+                 id="Address" placeholder="Your Address"
+                 autocomplete="on" required>
+               </p>
+               <p>
+               <label for="Password">Password</label>
+                 <input type="Password" name="Password"
+                 id="Password" placeholder="Your password"
+                 required>
+               </p>
+                 <p>
+               <label for="phone">Phone</label>
+                 <input type="tel" name="Phone"
+                 id="Phone" placeholder="080xxxxxxxx" pattern="[0-9]{11}"
+                 required>
+               </p>
+               <p>
+               <label for="DateOfBirth">DateOfBirth</label>
+                 <input type="date" name="DateOfBirth"
+                 id="DateOfBirth" min="1890" max="2025" step="1" value="1960"
+                 required>
+               </p>
+               <p>
+               <label for="Cakes">Favorite Cake</label>
+               <select name="Cakes" id="Cake">
+                 
+                 <option value="Vanilla Cake">Vanilla Cake</option>
+                 <option value="Chocolate Cake">Chocolate Cake</option>
+                 <option value="Red Velvet Cake">Red Velvet Cake</option>
+                 <option value="Coconut Cake">Coconut Cake</option>
+                 <option value="Fruit Cake">Fruit Cake</option>
+                 <option value="Wedding Cake">Wedding Cake</option>
+                 <option value="Other">Other</option>
+               </select>
+             </p>
+               <p>
+               <label for="Cakes">Favorite Cake Theme</label>
+               <select name="Cakes" id="Cake">
+                 
+                 <option value="Vanilla Cake">Birthday Cake</option>
+                 <option value="Chocolate Cake">Valentines Cake</option>
+                 <option value="Red Velvet Cake">Red Velvet Cake</option>
+                 <option value="Coconut Cake">Romance Cake</option>
+                 <option value="Fruit Cake">Christmas Cake</option>
+                 <option value="Wedding Cake">Wedding Cake</option>
+                 <option value="Other">Other</option>
+               </select>
+             </p>
+               <p>
+                 <label for="Toppings">Favorite Toppings</label>
+               <select name="Toppings" id="Toppings">
+                 
+                 <option value="Buttercream frosting">Buttercream frosting</option>
+                 <option value="Ganache">Ganache</option>
+                 <option value="Fondant">Fondant</option>
+                 <option value="Whipped Cream Frosting">Whipped Cream Frosting</option>
+                 <option value="Fresh fruit">Fresh fruit</option>
+                 <option value="Sprinkles">Sprinkles</option>
+                 <option value="Tooty Fruity">Tooty Fruity</option>
+                 <option value="Other">Other</option>
+               </select>
+   
+               </p>
+             </fieldset>
+             <br><br><br>
+             <fieldset>
+               <legend>How often do you eat Cakes?</legend>
+               <p>
+                 <input type="radio" name="times" id="Everday of the week">
+                 <label for="Everday of the week">Everday of the week</label>
+             </p>
+               <p>
+                 <input type="radio" name="times" id="Five times in a week">
+                 <label for="Five times in a week">Five times in a week</label>
+             </p>
+               <p>
+                 <input type="radio" name="times" id="Three times in a week">
+                 <label for="Three times in a week">Three times in a week</label>
+             </p>
+               <p>
+                 <input type="radio" name="times" id="Once in a week">
+                 <label for="Once in a week">Once in a week</label>
+             </p>
+               <p>
+                 <input type="radio" name="times" id="Never">
+                 <label for="Never">Never</label>
+             </p>
+             </fieldset>
+             <br><br><br>
+   
+             <fieldset>
+             <legend>What is your preferred cake size?</legend>
+             
+             <p>
+             <input type="checkbox" name="sizes" id="6 inches 3 layers Cake" value="6 inches 3 layers Cake">
+             <label for="6 inches 3 layers Cake">6 inches 3 layers Cake</label>
+             </p>
+             <p>
+             <input type="checkbox" name="sizes" id="7 2 layers RIBBON Cake" value="7 2 layers RIBBON Cake">
+             <label for="7 2 layers RIBBON Cake">7 2 layers RIBBON Cake</label>
+             </p>
+             <p>
+             <input type="checkbox" name="sizes" id="8 single layer cake" value="8 single layer cake">
+             <label for="8 single layer cake">8 single layer cake</label>
+             </p>
+             <p>
+             <input type="checkbox" name="sizes" id="12 2 layers Cake" value="12 2 layers Cake">
+             <label for="12 2 layers Cake">12 2 layers Cake</label>
+             </p>
+   
+             </fieldset>
+             <fieldset class="reservation">
+             <legend>Reservation And Payments</legend>
+             
+             <p>
+               <label for="LastName">ReservationDate</label>
+               <input type="date" name="Reservation"
+               id="Reservation" 
+               autocomplete="on" required>
+             </p>
+             <p>
+               <label for="LastName">Event Time</label>
+               <input type="time" name="Event"
+               id="Event" 
+               autocomplete="on" required>
+             </p>
+             <p>
+               <label for="LastName">Event Location</label>
+               <input type="text" name="Event"
+               id="Event" 
+               autocomplete="on" required>
+             </p>
+             <p>
+               <label for="LastName">Budget</label>
+               <input type="text" name="Budget"
+               id="Budget" 
+               autocomplete="on" placeholder="$">
+             </p>
+
+             <p>
+               <label for="Cakes">Payment Method</label>
+               <select name="Credit" id="Cake">Credit Card
+                 
+                 <option value="Bank">Bank Transfer</option>
+                 <option value="Cash">Cash</option>
+                 <option value="Paypal">Paypal</option>
+                 <option value="Coupons">Coupons</option>
+                 <option value="Other">Other</option>
+               </select>
+             </p>
+
+   
+             </fieldset>
+   <br><br><br>
+             <fieldset class="soft">
+             <legend>Send Us A Note (Your special request.)</legend>
+               <p>
+             <label for="messgae">Your message</label>
+             <br>
+             <textarea name="message" id="message" cols="30" rows="10" placeholder="Type in your special request here.(e.g allergies, dietary restrictions e.t.c)"></textarea>
+             </p>
+   
+             </fieldset>
+
+             <p>
+               <label for="Cakes">*How do you want us to contant you?</label>
+               <select name="Credit" id="Cake">
+                 
+                 <option value="Bank">Email</option>
+                 <option value="Cash">Phone call</option>
+                 <option value="Paypal">Send a message</option>
+                 <option value="Coupons">Whatsapp chat</option>
+                 <option value="Other">Other</option>
+               </select>
+             </p>
+             <p>
+               <input type="checkbox" name="confirmation" id="confirmation" value="confirmation">
+               <label for="confirmation">I agree and confirm to all information and documents provided above.</label>
+               </p>
+
+           </section>
+             <br>
+   
+             <p>
+               <button class="submit">Submit</button>
+               <button class="reset" type="reset">Reset</button>
+             </p>
+             
+         <br>
+            
+           </section>
+       </section></div>
+       <footer>
+        <footer class="footer"  id="contactmeee">
+            <div class="footer-container">
+                <!-- Company Info -->
+                <div class="footer-section about">
+                    <h2>DjowoCakes 🎂💜</h2>
+                    <p>Bringing sweetness to every celebration with handcrafted cakes and treats made with love! 🍰✨</p>
+                </div>
+        
+                <!-- Quick Links -->
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Wedding Cakes</a></li>
+                        <li><a href="#">Birthday Cakes</a></li>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+        
+                <section>
+                <!-- Contact Details -->
+                <div class="footer-section contact">
+                    <h2>Contact Us 📞</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> No 9, Ifedayo street Ikoya, Ondo State, Nigeria</p>
+                    <p><i class="fas fa-envelope"></i> Itzdjowo@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +234-813-842-206-8</p>
+                </div>
+            </section>
+
+                <!-- Social Media -->
+                <div class="footer-section social">
+                    <h2>Follow Us 💜</h2>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+        
+                <!-- Newsletter Subscription -->
+                <div class="footer-section newsletter">
+                    <h2>Subscribe for Updates 📩</h2>
+                    <form id="newsletter-form">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Copyright Section -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 DjowoCakes | All Rights Reserved 💜</p>
+            </div>
+
+<div align="left"  class="backtotop">
+    
+    <p class="bactotop2"><a href="#">↟ Back  To Top</a></p>
+
+</div></footer>
+       
+    </div>
+    
+
+    <script src="ABISCAKE.JS"></script>
+</body>
+</html>

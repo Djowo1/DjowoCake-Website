@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DjowoCakes Gallery</title>
+
+    <link rel="stylesheet" href="LIGHTBOXGALLERY.css">
+
+    <link rel="stylesheet" href="lightbox.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Pacifico&family=Rochester&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/b4ea6e037d.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/x-icon" href="real logo.png">
+</head>
+<body>
+   
+      
+ 
+    <nav>
+        <div class="logo">
+          <a href="MyCake.html"><img src="real logo.png" alt="Djowocakes Logo"></a>
+          <h1>Djowocakes</h1>
+        </div>
+        
+       
+       
+          <ul class="nav-linksss"  id="nav-linksss">
+    
+            
+            <div class="searchanything">
+              <input type="text" placeholder="Search for products..." class="search-bar">
+              <button class="search-btn">Search</button>
+            </div>
+    
+            <li><a href="MyCake.html">Home</a></li>
+          
+              <!-- Dropdown Menu -->
+            <li class="dropdown">
+              <a href="ABISCAKETYPES.HTML">Cake Types ▽</a>
+              <ul class="dropdown-menu">
+                <li><a href="ABISCAKETYPES.HTML">Wedding Cakes</a></li>
+                <li><a href="ABISCAKETYPES.HTML">Birthday Cakes</a></li>
+                <li><a href="ABISCAKETYPES.HTML">Traditional Cakes</a></li>
+                <li><a href="ABISCAKETYPES.HTML">Valentines Cakes</a></li>
+                <li><a href="ABISCAKETYPES.HTML">Christmas Cakes</a></li>
+              </ul></li>
+         
+            <li><a href="#">About Us</a></li>
+            <li><a href="#contactmeee">Contact Us</a></li>
+    
+           
+          </ul>
+    
+        
+        
+        <div class="cart-container">
+          <div id="cart-icon"> 🛒 <span id="cart-count">0</span> </div>
+          <div id="cart-dropdown" class="cart-dropdown">
+            <h3>Your Cart</h3>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="clear-cart">🗑Clear Cart</button>
+          </div>
+        </div>
+    <div class="menu-icon" id="menu-icon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+      </nav>
+      
+      <script>
+          document.addEventListener("DOMContentLoaded", function () {
+              let menuList = document.getElementById("nav-linksss");
+              let menuToggle = document.getElementById("menu-icon"); // Define menuToggle properly
+          
+              // Ensure menuList exists before modifying it
+              if (menuList) {
+                  menuList.style.maxHeight = "0px";
+          
+                  function toggleMenu() {
+                      if (menuList.style.maxHeight === "0px" || menuList.style.maxHeight === "") {
+                          menuList.style.maxHeight = "500px"; // Adjust height as needed
+                      } else {
+                          menuList.style.maxHeight = "0px";
+                      }
+                  }
+          
+                  // Ensure menuToggle exists before adding event listener
+                  if (menuToggle) {
+                      menuToggle.addEventListener("click", toggleMenu);
+                  }
+              }
+          });
+          </script>
+    
+    </div>
+<h1 class="animate-on-load" align="center">Djowo's Cakes Image Gallery</h1>
+
+<div class="gallery animate-on-load">
+    <!-- Gallery images here -->
+
+   
+
+   
+        <div class="gallery">
+
+            <a href="birthday-cake-6591720_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="birthday-cake-6591720_1920.jpg"></a>
+            <a href="cake-345657_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-345657_1920.jpg"></a>
+            <a href="cake-1145609_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-1145609_1920.jpg"></a>
+            <a href="cake-1543831_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-1543831_1920.jpg"></a>
+            <a href="cake-2589348_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-2589348_1920.jpg"></a>
+            <a href="cake-4433123_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-4433123_1920.jpg"></a>
+            <a href="cake-6292565_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-6292565_1920.jpg"></a>
+            <a href="cake-7367272_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-7367272_1920.jpg"></a>
+            <a href="cake-balls-4139990_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="cake-balls-4139990_1280.jpg"></a>
+            <a href="cakes-3019645_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="cakes-3019645_1280.jpg"></a>
+            <a href="cupcake-697445_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="cupcake-697445_1280.jpg"></a>
+            <a href="cupcakes-4186218_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="cupcakes-4186218_1280.jpg"></a>
+            <a href="donut-3554915_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="donut-3554915_1920.jpg"></a>
+            <a href="food-2589686_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="food-2589686_1280.jpg"></a>
+            <a href="muffin-299479_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="muffin-299479_1920.jpg"></a>
+            <a href="muffin-3510308_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="muffin-3510308_1280.jpg"></a>
+            <a href="muffins-1844458_1280.jpg" data-lightbox="models" data-title="Caption1"><img src="muffins-1844458_1280.jpg"></a>
+            <a href="pair-1994901_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="pair-1994901_1920.jpg"></a>
+            <a href="peach-cake-8598851_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="peach-cake-8598851_1920.jpg"></a>
+            <a href="wedding-5729382_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="wedding-5729382_1920.jpg"></a>
+            <a href="wedding-cake-1027900_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="wedding-cake-1027900_1920.jpg"></a>
+            <a href="wedding-cake-3346747_1920.jpg" data-lightbox="models" data-title="Caption1"><img src="wedding-cake-3346747_1920.jpg"></a>
+           
+            
+        </div>
+    </div>
+           
+
+        <footer class="footer"  id="contactmeee">
+            <div class="footer-container">
+                <!-- Company Info -->
+                <div class="footer-section about">
+                    <h2>DjowoCakes 🎂💜</h2>
+                    <p>Bringing sweetness to every celebration with handcrafted cakes and treats made with love! 🍰✨</p>
+                </div>
+        
+                <!-- Quick Links -->
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Wedding Cakes</a></li>
+                        <li><a href="#">Birthday Cakes</a></li>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+        
+                <section>
+                <!-- Contact Details -->
+                <div class="footer-section contact">
+                    <h2>Contact Us 📞</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> No 9, Ifedayo street Ikoya, Ondo State, Nigeria</p>
+                    <p><i class="fas fa-envelope"></i> Itzdjowo@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +234-813-842-206-8</p>
+                </div>
+            </section>
+
+                <!-- Social Media -->
+                <div class="footer-section social">
+                    <h2>Follow Us 💜</h2>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+        
+                <!-- Newsletter Subscription -->
+                <div class="footer-section newsletter">
+                    <h2>Subscribe for Updates 📩</h2>
+                    <form id="newsletter-form">
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Copyright Section -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 DjowoCakes | All Rights Reserved 💜</p>
+            </div>
+
+            <div align="left"  class="backtotop">
+    
+                <p class="bactotop2"><a href="LIGHTBOXGALLERY.HTML">🔼</a></p>
+        </footer>
+
+         
+        
+
+
+   <script src="LIGHTBOXGALLERY.JS"></script> 
+   <script src="lightbox-plus-jquery.js"></script> 
+</body>
+</html>

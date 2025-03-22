@@ -7,8 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const cartTotal = document.getElementById("cart-total");
     const clearCartBtn = document.getElementById("clear-cart");
 
-
-
     // Show/Hide Cart Dropdown on Click
     cartIcon.addEventListener("click", function (e) {
         e.preventDefault();

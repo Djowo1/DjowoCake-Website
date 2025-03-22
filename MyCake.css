@@ -4,17 +4,14 @@
     box-sizing: border-box;
 }
 
-
 body{
     height: 100%;
     width: 100%;
-   overflow-x: hidden;
-   
+   overflow-x: hidden;   
 }
 
 .container {
-    display: grid;
-  
+    display: grid;  
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.5fr 1.2fr 0.6fr 0.6fr;
     grid-template-areas: 
@@ -28,13 +25,11 @@ body{
     "footer footer footer footer";
     grid-gap: 0.2rem ;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Times New Roman', Times, serif;    
 }
 
 nav {
 background-color: rgb(247, 243, 238, 0.7);
-
 grid-area: nav;
 padding: 10px 30px;
 display: flex;
@@ -45,8 +40,6 @@ height: 70px;
 width: 100%;
 z-index: 1000;
 }
-
-
 
 .logo img{
     width: 50px;
@@ -63,13 +56,11 @@ nav .nav-linksss{
     display: flex;
     gap: 20px;
     font-size: 14px;
-    font-weight: bolder;
-   
+    font-weight: bolder;   
 }
 
 nav .nav-linksss li{
-    list-style-type: none;
-    
+    list-style-type: none;    
 }
 
 nav .nav-linksss li a {
@@ -92,8 +83,7 @@ font-weight: bolder;
 .menu-icon i{
     color: rgb(0, 0, 0);
     font-size: 30px;
-    cursor: pointer;
-   
+    cursor: pointer;   
 }
 
 @media (max-width:850px){
@@ -101,21 +91,18 @@ font-weight: bolder;
         position: absolute;
        overflow: hidden;
         top: 70px;
-       
-        right: 0;
+               right: 0;
         flex-direction: column;
         text-align: center;
         gap: 0;
         background-color:rgb(214, 203, 203);
-        width: 60%;
-  
+        width: 60%;  
     }
 
     nav .nav-linksss li{
         padding: 20px;
            
     }
-
    
     .menu-icon{
         display: block;
@@ -126,7 +113,6 @@ font-weight: bolder;
     }
     
 }
-
 
 @media(max-width:381px){
     .logo{
@@ -147,8 +133,6 @@ font-weight: bolder;
 }
 
 main {
-
-
 grid-area: main;
 border-radius: 5px;
 padding: 5px;
@@ -160,7 +144,6 @@ background-color: #e7ddf1;
 
 #content1 {
 background-color: #f3efe8;
-
 grid-area: content1;
 border-radius: 5px;
 padding: 5px;
@@ -168,30 +151,24 @@ height: fit-content;
 }
 
 #content2 {
-
-
 grid-area: content2;
 border-radius: 5px;
 padding: 5px;
 }
 
 #content3 {
-
-
 grid-area: content3;
 border-radius: 5px;
 padding: 5px;
 }
 
 #content4 {
-
 grid-area: content4;
 border-radius: 5px;
 padding: 5px;
 }
 
 footer {
-
 grid-area: footer;
 border-radius: 5px;
 padding: 5px;
@@ -214,9 +191,7 @@ grid-template-areas:
 "footer";
 }
 
-
 }
-
 
 /* Search Section */
 .searchanything {
@@ -230,11 +205,9 @@ grid-template-areas:
 .search-bar {
     padding: 8px 15px;
     border: 3px solid #a77ce3;
-    border-radius: 8px;
-    
+    border-radius: 8px;    
     max-width: 400px;
-    width: 150px;
-   
+    width: 150px;   
 }
 
 .search-btn {
@@ -255,11 +228,8 @@ grid-template-areas:
 
 }
 
-
-
 /* 🔥 Slideshow Section Styles */
-.slideshow {
-   
+.slideshow {   
     background: url('IMAGE/cupcakes-4186218_1280.jpg') center/cover no-repeat;
     display: flex;
     justify-content: center;
@@ -267,19 +237,15 @@ grid-template-areas:
     text-align: center;
     color: white;
     transition: background 1s ease-in-out;
-    background-size: cover;
-   
+    background-size: cover;   
     width: 100%;
     height: 500px; /* Adjust as needed */
     background-size: cover;
     background-position: center;
     transition: background-image 0.5s ease-in-out;
     background-color: #000; /* Prevent white background */
-   height: 1000px;
-  
-   overflow: hidden;
-   
-
+   height: 1000px;  
+   overflow: hidden; 
 }
 
 .slideshow-content {
@@ -287,9 +253,7 @@ grid-template-areas:
     border-radius: 10px;
     width: 100%;
     background: rgba(255, 255, 255, 0.4);
-    margin-top: -200px;
-
-    
+    margin-top: -200px;    
 }
 
 .slideshow h2 {
@@ -328,7 +292,6 @@ grid-template-areas:
 .slideshow .btn:hover {
     background-color: #7227db;
 }
-
 
 /* 🔥 Slideshow Buttons */
 .slide-btn {
@@ -369,17 +332,12 @@ grid-template-areas:
     transition: opacity 0.5s ease-in-out;
 }
 
-
 /* Products Section */
-.products {
-    
+.products {    
     text-align: center;
     padding: 50px;
     background-color: #e7ddf1;
-
-    overflow: hidden;
-   
-    
+    overflow: hidden;     
 }
 
 .product-list {
@@ -430,8 +388,7 @@ grid-template-areas:
     transform: translateY(-5px);
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    background-color: #ecbe85;
-   
+    background-color: #ecbe85;   
 }
 
 .product img {
@@ -494,7 +451,6 @@ grid-template-areas:
         margin-left: 300px;
       }
 }
-
 
 /* Special Products Section */
 .special-products {
@@ -669,7 +625,6 @@ grid-template-areas:
     overflow-y: auto;
 }
 
-
 #cart-dropdown h4 {
     margin: 0;
     text-align: center;
@@ -685,10 +640,8 @@ grid-template-areas:
     display: flex;
     justify-content: space-between;
     padding: 5px;
-    border-bottom: 1px solid #ddd;
-    
+    border-bottom: 1px solid #ddd;    
 }
-
 
 #cart-total {
     font-weight: bold;
@@ -731,8 +684,7 @@ grid-template-areas:
 
 /* Dropdown Menu Styling */
 .dropdown-menu {
-    position: absolute;
-   
+    position: absolute;   
     left: 0;
     background: #6b5c6a;
     border-radius: 10px;
@@ -747,10 +699,7 @@ grid-template-areas:
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    
-   
-    
-}
+ }
 
 /* Show dropdown smoothly on hover */
 .dropdown:hover .dropdown-menu {
@@ -813,18 +762,15 @@ grid-template-areas:
     display: block;
 }
 
-
 .dropdown {
     top: -10px;
 }
-
 
 .thankyou {
     background-image: url("IMAGE/woman-working-as-professional-chef.jpg");
     background-repeat: no-repeat;
     background-position: center;
-  color: #F7F7F7;
- 
+  color: #F7F7F7; 
   border-radius: 40px;
   background-size: cover;
   height: fit-content;
@@ -839,15 +785,12 @@ grid-template-areas:
 
 .thankyou:hover {
     transform: translateY(-10px);
-    transform: rotateX('360deg');
-    
+    transform: rotateX('360deg');    
     background-color: #ecbe85;
-    
     position: relative;
 }
  
-  .come {
-  
+  .come {  
     text-shadow: #69a2ac;
     font-family: cursive;
     font-size: 2em;
@@ -862,7 +805,6 @@ grid-template-areas:
     margin-top: 40px;
     margin-left: 90px;
     margin-right: 70px;
-
   }
  
   .prof {
@@ -870,10 +812,7 @@ font-size: 2em;
 margin-right: 20px;
 margin-top: 10px;
 font-weight: bolder;
-
   }
-
- 
 
   .register {
     border-radius: 20px;
@@ -884,17 +823,13 @@ font-weight: bolder;
     font-family: pacifico;
    border-color: #7c30e7 ;  
     font-style: none;
-    margin-top: 20px;
-    
-
-    
+    margin-top: 20px;  
   }
 
   .register a {
     color: #7c30e7;
     background: #e5e7e7;
-    text-decoration: none;
-  
+    text-decoration: none;  
   }
 
   .register:hover {
@@ -916,8 +851,7 @@ font-weight: bolder;
 }
 /* styles.css */
 
-.testimonials {
-  
+.testimonials {  
     width: 80%;
     margin: 40px auto;
     padding: 20px;
@@ -975,17 +909,14 @@ font-weight: bolder;
     color: #666;
 }
 
-.testimonial-nav {
-    
+.testimonial-nav {    
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: space-between;
     width: 100px;
-    margin-left: 500px;
-
-   
+    margin-left: 500px;   
 }
 
 .prev-btn, .next-btn {
@@ -994,8 +925,7 @@ font-weight: bolder;
     border: none;
     border-radius: 50%;
     background-color: #ccc;
-    cursor: pointer;
-  
+    cursor: pointer;  
 }
 
 .prev-btn:hover, .next-btn:hover {
@@ -1027,7 +957,6 @@ font-weight: bolder;
     }
 }
 
-
 .Writebacktous {
     color: #a77ce3;
     font-family: Caveat ;
@@ -1043,17 +972,13 @@ font-weight: bolder;
      font-family: Caveat ;
      font-size: 19px;
     margin-top: 20px;
-    margin-left: 70px;
-     
-     
+    margin-left: 70px;         
  }
 
  .love h4 {
     text-align: center;
   }
-  
-  
- 
+     
  .form {  
     color: #a77ce3;
     font-family: cursive ;
@@ -1063,9 +988,7 @@ font-weight: bolder;
    width: 55%;
     box-shadow: 20px 10px 40px #a1978b;
     background-color: #e6ddd3;
-    margin-left: 40px;
-  
-   
+    margin-left: 40px;    
  }
 
  label {
@@ -1115,8 +1038,7 @@ textarea:hover {
     width: 100px;
     height: 40px;
     background-color: rgb(0, 0, 0);
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .submit:hover {
@@ -1154,9 +1076,6 @@ textarea:hover {
 .reset {
     box-shadow: 20px 10px 20px #454a4d;
 }
-
-
-
 
 .form {
     width: 80%;
@@ -1209,11 +1128,7 @@ textarea:hover {
     
     .form button[type="submit"]:hover, .form button[type="reset"]:hover {
     background-color: #3e8e41;
-    }
-    
-    
-      
-      
+    }                
       .form {
         margin: 40px auto;
         padding: 20px;
@@ -1237,7 +1152,6 @@ textarea:hover {
       .form label {
         display: inline-block;
       }
-
 
 /* Footer Styling */
 .footer {
@@ -1346,7 +1260,6 @@ textarea:hover {
     margin-top: 20px;
 }
 
-
 .bactotop2 {
     color: rgb(116, 67, 67);
     background-color: #5A3E85;;
@@ -1356,8 +1269,6 @@ textarea:hover {
     font-size: 30px;
     margin-left: 30px;
 }
-
-
       
     /* Apply animation class */
 .animated-load {
@@ -1411,22 +1322,16 @@ textarea:hover {
 .slideFromLeft { animation: slideFromLeft 1.5s ease-in-out; }
 .slideFromRight { animation: slideFromRight 1.5s ease-in-out; }
 
-
-@media (max-width: 517px) {
-
-    
+@media (max-width: 517px) {   
     .thankyou { margin-top: 10px;
         margin-bottom: 20px;
         margin-left: 90px;
-        margin-right: 90px;}
+        margin-right: 90px;}  
     
-    
-        
-  .come {
+   .come {
     font-size: 1em;
     margin-left: 20px;
     margin-bottom: 20px;}
-
 
     .joinus {
         font-size: 2em;
@@ -1438,11 +1343,9 @@ textarea:hover {
             font-size: 2em;
             margin-right: 20px;
             margin-top: 10px;
-            font-weight: bolder;
-            
+            font-weight: bolder;            
               }
-              
-      
+                    
   .register {   
     font-size: 2em;
       margin-top: -20px;     
@@ -1450,11 +1353,7 @@ textarea:hover {
 
   }
 
-
-
-  @media (max-width: 490px) {
-
-    
+  @media (max-width: 490px) {    
     .thankyou {
         margin-top: 10px;
         margin-bottom: 20px;
@@ -1469,9 +1368,7 @@ textarea:hover {
     margin-bottom: 20px;
   }
 
-
   .joinus {
-
     font-weight: bolder;
     font-size: 20px;
     margin-top: -20px;
@@ -1487,7 +1384,6 @@ textarea:hover {
     font-weight: bolder;
     
       }
-
       
   .register {
     font-size: 20px;
@@ -1508,9 +1404,7 @@ textarea:hover {
     }
 }
 
-@media (max-width: 378px) {
-
-    
+@media (max-width: 378px) {    
     .thankyou {
         margin-top: 10px;
         margin-bottom: 20px;
@@ -1541,9 +1435,7 @@ textarea:hover {
 
               .register {
                 font-size: 20px;
-}
-
-        
+}        
   .training {
     margin-right: 10px;
     padding-top: 20px;
@@ -1576,10 +1468,8 @@ textarea:hover {
   .prof {
     font-size: 20px;
     margin-right: 20px;
-    margin-top: 5px;
-    
+    margin-top: 5px;    
       }
-
    
   .register {   
     font-size: 20px;
@@ -1612,12 +1502,9 @@ textarea:hover {
           .joinus {
             font-size: 13px;
             margin-left: 90px;
-            margin-right: 70px;
-        
+            margin-right: 70px;        
           }
-
-   
-    }
+       }
 
     
 @media (max-width: 280px) {

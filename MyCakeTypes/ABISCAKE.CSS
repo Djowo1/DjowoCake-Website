@@ -352,6 +352,25 @@ footer {
     text-decoration: none;
 }
 
+#clear-cart {
+    background: #a77ce3;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#clear-cart:hover {
+    background: #8a5ac7;
+}
+
+#clear-cart a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Hover effect on button */
 .add-to-cart:hover {
     background-color: #5A216D; /* Darker color on hover */

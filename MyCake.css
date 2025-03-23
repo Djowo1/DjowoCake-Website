@@ -1513,3 +1513,33 @@ textarea:hover {
         margin-left: 7px;
        }
     }
+
+    @media (max-width: 768px) {
+        /* mobile-specific styles */
+        .container {
+          width: 100%;
+          padding: 20px;
+        }
+        .header {
+          font-size: 24px;
+        }
+        .footer {
+          font-size: 18px;
+        }
+      }
+      
+      /* Add this to your CSS file */
+      @media (max-width: 480px) {
+        /* mobile-specific styles */
+        .container {
+          width: 100%;
+          padding: 10px;
+        }
+        .header {
+          font-size: 18px;
+        }
+        .footer {
+          font-size: 14px;
+        }
+      }
+      

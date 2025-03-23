@@ -687,7 +687,7 @@ grid-template-areas:
 .dropdown-menu {
     position: absolute;   
     left: 0;
-    background: #9b0191;
+    background: #795076;
     border-radius: 10px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
     list-style: none;
